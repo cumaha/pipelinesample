@@ -30,6 +30,7 @@ pipeline {
 		}
 		stage("Func_Testing") {
 					steps {
+						echo 'Functional Testing is started'
 						echo 'Functional Testing is completed'
 					}
 				}
