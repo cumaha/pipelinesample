@@ -4,7 +4,7 @@ pipeline {
 		stage("Clone_Repository") {
 			steps {
 				echo 'Clone is in Progress'
-				echo '============================================"
+				echo '============================================'
 				echo 'Clone is Completed'
 			}
 		}
