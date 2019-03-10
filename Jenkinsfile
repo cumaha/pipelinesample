@@ -41,12 +41,13 @@ pipeline {
 				}
 		stage("Security_Testing") {
 			steps {
-				sleep 10	
+				 sleep 10	
 				 echo 'Security Testing is completed'
 				}
 		}
 		stage("Performance_Testing") {
 					steps {
+						sleep 5
 						echo 'Performance Testing is completed'
 					}
 				}
