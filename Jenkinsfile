@@ -39,6 +39,12 @@ pipeline {
 						echo 'UAT Testing is completed'
 					}
 				}
+		stage("Security_Testing") {
+			steps {
+				sleep 10	
+				 echo 'Security Testing is completed'
+				}
+		}
 		stage("Performance_Testing") {
 					steps {
 						echo 'Performance Testing is completed'
