@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage("Clone_Repository") {
 			steps {
+				sleep 10
 				echo 'Cloning started'
 				echo 'Clone is Completed'
 			}
