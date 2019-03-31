@@ -46,6 +46,12 @@ pipeline {
 				 echo 'Security Testing is completed'
 				}
 		}
+		stage("Exploratory_Testing") {
+			steps {
+				 sleep 15	
+				 echo 'Exploratory Testing is completed'
+				}
+		}
 		stage("Performance_Testing") {
 					steps {
 						sleep 5
